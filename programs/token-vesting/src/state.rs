@@ -7,4 +7,6 @@ pub struct VestingAccount {
     pub release_time: i64,
     pub amount: u64,
     pub claimed: u64,
+    pub mint: Pubkey,
+    pub vault: Pubkey,
 }
